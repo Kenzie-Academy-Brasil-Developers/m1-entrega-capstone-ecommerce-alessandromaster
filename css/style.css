@@ -41,6 +41,11 @@ a{
     color: black;
 }
 
+a:hover{
+    color: #37268C;
+    border-bottom: solid 1px #37268C;
+}
+
 .container{
     display: flex;
 }
@@ -75,6 +80,7 @@ a{
     background: #2E245E;
     list-style: none;
 }
+
 img{
     width: 160px;
     height: 150px;
@@ -87,6 +93,11 @@ img{
     flex-direction: column;
     align-items: center;
     background-color: #e4e4e4;
+    border: solid 0;
+}
+
+.imagemProduto:hover{
+    border: solid 0.5px black;
 }
 
 .informacoes{
@@ -127,7 +138,15 @@ img{
 
 .butaoAddCarrinho{
     height: 36px;
+    background: #e4e4e4;
     font-weight: 600;
+    border: solid 0;
+    transition: background 0.5s;
+}
+
+.butaoAddCarrinho:hover{
+    background: #37268C;
+    border: solid 1px #1a0779;
 }
 
 .container_2{
