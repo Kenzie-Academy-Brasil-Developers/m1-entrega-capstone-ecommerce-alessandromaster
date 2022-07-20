@@ -51,20 +51,15 @@ a:hover{
 }
 
 .vitrine{
-    width: 735px;
-    height: 838px;
+    width: 61%px;
+    height: 100%;
     margin-top: 52px;
     margin-left: 115px;
     display: flex;
     flex-direction: column;
 }
 
-.sessao1{
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-.sessao2{
+.sessao{
     margin-bottom: 5px;
 }
 
@@ -75,8 +70,7 @@ a:hover{
 }
 
 .Produtos{
-    width: 240px;
-    height: 328px;
+    width: 33%;
     background: #2E245E;
     list-style: none;
 }
@@ -150,19 +144,19 @@ img{
 }
 
 .container_2{
+    width: 40%;
     background: #ffffff;
-    margin-top: 57px;
-    margin-left: 98px;
+    margin: 57px 117px 0 40px;
 }
 
 .areaPesquisa{
     height: 40px;
-    width: 190px;
+    width: 62%;
 }
 
 .botaoPesquisar{
     height: 40px;
-    width: 91px;
+    width: 36%;
     color: #ffffff;
     background: #37268C;
     border: 0;
@@ -176,6 +170,8 @@ img{
     align-items: center;
     height: 40px;
     font-weight: bold;
+    font-size: 100%;
+    color: white;
 }
 
 .produtoCarrinho{
@@ -188,8 +184,18 @@ img{
 }
 
 .produtoCarrinho h3{
-    font-size: 24px;
+    width: 100%;
+    font-size: 170%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 .produtoCarrinho p{
-    font-size: 15px;
+    width: 100%;
+    font-size: 120%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
